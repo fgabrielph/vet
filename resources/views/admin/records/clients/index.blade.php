@@ -63,11 +63,11 @@
                                     <div class="form-group col-md-4">
                                         <label for="#"><i class="fas fa-transgender"></i>&nbsp;Gender</label>
                                         <div class="custom-control custom-radio">
-                                            <input class="custom-control-input" type="radio" id="#" name="#" value="#">
+                                            <input class="custom-control-input" type="radio" id="#" name="gender" value="#">
                                             <label for="#" class="custom-control-label">Male</label>
                                         </div>
                                         <div class="custom-control custom-radio">
-                                            <input class="custom-control-input" type="radio" id="#" name="#" value="#">
+                                            <input class="custom-control-input" type="radio" id="#" name="gender" value="#">
                                             <label for="#" class="custom-control-label">Female</label>
                                         </div>
                                     </div>
