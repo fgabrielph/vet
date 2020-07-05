@@ -27,7 +27,7 @@
                 <i class="fas fa-user-circle"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                <a href="#" class="dropdown-item">
+                <a href="{{ route('admin.logout') }}" class="dropdown-item">
                     Logout
                 </a>
             </div>

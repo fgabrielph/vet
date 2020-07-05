@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <label for="#"><i class="fas fa-plus-square"></i>&nbsp;Category Type</label>
+                                        <label for="#"><i class="fas fa-plus-square"></i>&nbsp;Category Name</label>
                                         <input type="text" class="form-control" id="#" placeholder="Category Name">
                                     </div>
                                 </div>
