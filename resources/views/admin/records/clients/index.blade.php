@@ -27,13 +27,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="card card-primary card-outline">
-                        <div class="card-header">
-                            <h3 class="card-title"><i class="fas fa-plus"></i>&nbsp;Client Form</h3>
-                        </div>
-                        <!-- /.card-header -->
-                        <!-- form start -->
-                        <form class="form-horizontal">
+                    <form class="form-horizontal">
+                        <div class="card card-outline">
+                            <div class="card-header">
+                                <h3 class="card-title">Client Form</h3>
+
+                                <div class="card-tools">
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                                    </button>
+                                    {{-- <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button> --}}
+                                </div>
+                            </div>
+                            <!-- /.card-header -->
+
                             <div class="card-body">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
@@ -83,14 +89,59 @@
                                     </div>
                                 </div>
                             </div>
-
                             <!-- /.card-body -->
+
                             <div class="card-footer">
                                 <button type="submit" class="btn btn-success float-right" style="margin-left: 10px;">Submit</button>
                                 <button type="submit" class="btn btn-danger float-right">Cancel</button>
                             </div>
                             <!-- /.card-footer -->
-                        </form>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-12">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Clients</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="atkTable" class="table table-bordered table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>First Name</th>
+                                    <th>Middle Name</th>
+                                    <th>Last Name</th>
+                                    <th>Gender</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet
+                                        Explorer 4.0
+                                    </td>
+                                    <td>Win 95+</td>
+                                    <td> 4</td>
+                                    <td>X</td>
+                                </tr>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet
+                                        Explorer 5.0
+                                    </td>
+                                    <td>Win 95+</td>
+                                    <td>5</td>
+                                    <td>C</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
                 </div>
             </div>
         </div>

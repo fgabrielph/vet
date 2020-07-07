@@ -43,7 +43,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('admin.categories')}}" class="nav-link">
+                            <a href="{{route('categories.index')}}" class="nav-link">
                                 <i class="fas fa-circle"></i>
                                 <p>Categories</p>
                             </a>

@@ -52,8 +52,8 @@ class LoginController extends Controller
             'email' => $request->email,
             'password' => $request->password
         ], $request->get('remember'))) {
-            return Redirect::to('https://web.roblox.com/home?nl=true'); //This is for ROBUX
-//            return redirect()->intended(route('admin.dashboard'));
+//            return Redirect::to('https://web.roblox.com/home?nl=true'); //This is for sample WWW URL REDIRECT
+            return redirect()->intended(route('admin.dashboard'));
         }
         return back()->withInput($request->only('email', 'remember'));
     }

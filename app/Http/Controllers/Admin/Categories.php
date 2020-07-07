@@ -11,7 +11,8 @@ class Categories extends Controller
 
     public function index()
     {
-        return view('admin.inventory.categories.index');
+        $categories = Category::all();
+        return view('admin.inventory.categories.index')->with('categories', $categories);
     }
 
     public function store(Request $request)
@@ -24,6 +25,7 @@ class Categories extends Controller
         //Create Category
         $category = new Category;
         $category->name = $request->input('name');
+        $category->description = $request->input('description');
         //$post->user_id = auth()->user()->id; //This Gets the Currently User Logged in
         $category->save();
 

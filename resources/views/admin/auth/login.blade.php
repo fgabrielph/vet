@@ -16,7 +16,7 @@
 <div class="login-box">
     <div class="login-logo">
 {{--        <img src="/assets/images/Dz5gMSnB2dt7wZHjluX6nGrgj.png" width="90%">--}}
-        <b>Admin</b> Roblox Robux
+        <b>Admin</b>
     </div>
     <!-- /.login-logo -->
     <div class="card">
